@@ -1,0 +1,4 @@
+flask
+telethon
+python-dotenv
+httpx
