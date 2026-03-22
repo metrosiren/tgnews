@@ -1,0 +1,25 @@
+{
+  "pushover_enabled": true,
+  "pushover_app_token": "ayxdb8s9fkf6zoka1tupgfx5mnpzm2",
+  "pushover_user_key": "uymf3xkhhch8fb8yeoi7tbdig9qv1y",
+  "openai_api_key": "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",
+  "notify_min_severity": "High",
+  "severity_instructions": "Anything that would significantly affect oil prices is considered severe. I\u2019m interested in news likely to cause a meaningful move in crude\u2014up or down. However, reports that only describe price reactions after the fact, without a new event or development, are not relevant.\n\nExample of low\u2013medium severity: \u201cOil jumps to $110 after recent conflict.\u201d\nExample of high\u2013critical severity: \u201cTrump gives Iran a 48-hour ultimatum to reopen the Strait of Hormuz or face strikes on power plants.\u201d\nSpecific events count, as long as they are significant enough.",
+  "instruction_presets": [
+    {
+      "name": "oil",
+      "text": "Anything that would significantly affect oil prices is considered severe. I\u2019m interested in news likely to cause a meaningful move in crude\u2014up or down. However, reports that only describe price reactions after the fact, without a new event or development, are not relevant.\n\nExample of low\u2013medium severity: \u201cOil jumps to $110 after recent conflict.\u201d\nExample of high\u2013critical severity: \u201cTrump gives Iran a 48-hour ultimatum to reopen the Strait of Hormuz or face strikes on power plants.\u201d\nSpecific events count, as long as they are significant enough."
+    }
+  ],
+  "channel_presets": [
+    {
+      "name": "Geopolitics",
+      "links": [
+        "https://t.me/BBCWorldoffl",
+        "https://t.me/GeoPWatch",
+        "https://t.me/aljazeeraglobal",
+        "https://t.me/Middle_East_Spectator"
+      ]
+    }
+  ]
+}
